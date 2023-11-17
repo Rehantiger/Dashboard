@@ -1,0 +1,354 @@
+:root {
+    --golden: #5a6fb1!important;
+     --topbar: #7a92df;
+    --black:black;
+     /* --bg:rgb(241, 242, 246); */
+    --whitnav: #fff;}
+
+    @media screen and (min-width: 820px){
+    div#mobileresphambeg {
+        display: none;
+    }
+    
+        [class*="hl_nav"] .divider {
+        display: none;
+    }
+    
+    i.hl_collapse-button.fas.fa-chevron-circle-left.rounded-full {
+        display: none;
+    }
+    /* width */
+    ::-webkit-scrollbar {
+      width:5px;
+    height: 5px;
+      
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: var(--whitnav)!important; 
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: var(--nav-a-hover) !important; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
+    }
+    /* header.hl_header .hl_header--controls{
+        display: none !important;
+    } */
+    .card-group.appoinTMENTS {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    .hl_error {
+        display: none !important;
+    }
+    @media screen and (min-width: 820px) {
+        
+        .sidebar-v2-location, .sidebar-v2-agency {
+            display: grid !important; 
+        }
+        
+        .sidebar-v2-location .hl_force-top .hl_conversations--wrap{
+    height: 80vh !important;
+    }
+       
+         #sidebar-v2 .h-screen {
+            height: 100%!important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active img, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover img, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active img, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover img, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a.active img, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a:hover img, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active img, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover img, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active img, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover img, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a.active img, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover img {
+            /* filter: unset !important; */
+        }
+        header.hl_header {
+            position: unset !important;
+            width: 100vw !important;
+            height: 5vh;
+        }
+        .hl_nav-header {
+            grid-column-start: 1;
+            grid-column-end: 10;
+        }
+        .hl_nav-header-without-footer {
+            grid-column-start: 1;
+            grid-column-end: 11;
+        }
+        [class*='hl_nav-header'] nav  {display: flex;width: 100% !important;overflow: auto;margin: auto;/* color: red!important; */}
+        
+        div#sidebar-v2 {
+            width: 100vw !important;
+            height: 15vh;
+            overflow: visible;
+        
+        }
+        
+        #backButtonv2 {
+            grid-column-start: 1;
+            grid-row-start: 1;
+            
+        }
+        #sidebar-v2>.h-screen>.h-screen{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: inherit;
+            padding: 5px !important;
+            background: rblack;
+            background: var(--topbar);
+        } 
+        
+        .hl_nav-settings {
+            position: unset;
+            grid-column-start: 10;
+            grid-column-end: 11;
+            width: unset !important;
+        }
+        
+         .sidebar-v2-agency .hl_wrapper, .sidebar-v2-location .hl_wrapper,  .sidebar-v2-location .hl_wrapper--inner {
+            width: 100vw !important;
+            padding-top: 5px !important;
+        }
+         img.object-contain.agency-logo {
+            max-height: 30px !important;
+        }
+     
+    .sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2, .sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2, .sidebar-v2-location #sidebar-v2 #globalSearchOpener, .sidebar-v2-location #sidebar-v2 #quickActions {
+            background-color: var(--whitnav) !important;
+            padding: 0px 5px !important;
+            /* margin-left: 10px; */
+        }
+        
+     .sidebar-v2-location .hl_settings--body {
+        max-height: 85vh !important;
+        padding-top: 5px !important;
+           /* width: 100vw !important; */
+    height: 70vh !important;
+        }
+    
+    
+    
+        
+      
+    
+    
+    /* 
+        my code */
+        
+    
+            /* 
+     */
+     #location-dashboard
+  .group.h-full.crm-opportunities-status
+  .dashboard-widget-type-custom {
+  background-image: url("https://storage.googleapis.com/msgsndr/Q6sATpsoSLCPFf5ErtoF/media/654b6dd092b8572527986b03.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+ 
+}
+#location-dashboard
+  .crm-opportunities-value
+  .dashboard-widget-type-custom.hl-card {
+  background-image: url("https://storage.googleapis.com/msgsndr/Q6sATpsoSLCPFf5ErtoF/media/654b751392b857423d9873b8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+#location-dashboard
+  .crm-opportunities-conversion-rate
+  .dashboard-widget-type-custom.hl-card {
+  background-image: url("https://storage.googleapis.com/msgsndr/Q6sATpsoSLCPFf5ErtoF/media/654b76d77b3caa119f8b9c9a.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+    body[data-theme=default] .sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2 .hl_switcher-loc-name {
+        color:var(--whitnav)!important;
+    }
+  
+        .hl_switcher-loc-city{
+     color:var(--whitnav)!important;
+     padding-left:16px;
+     
+    }
+        .sidebar-v2-location #sidebar-v2 #quickActions{
+            margin-left:10px!important;
+        }
+ 
+        path:nth-child(4) {
+         fill: var(--whitnav);
+     }
+          path:nth-child(6) {
+         fill:var(--topbar) !important;
+       }
+       
+        .hl-text-md-medium {
+            font-size:21px;
+            font-weight:bold
+        }
+    
+        #location-dashboard .hl-card-content,.grid-stack-item-content .hl-card .hl-card-header{
+     background-color:var(--bg)!important;
+   }
+       .avatar .avatar_img{
+    background:var(--golden)!important;
+        color:var(--whitnav)!important;
+    }
+    #canny_logs-toggle, #recent_activities-toggle, #hl_header--help-icon{
+    background:var(--whitnav)!important;
+     color:var(--black)!important
+    }
+    .sidebar-v2-location .hl_header .container-fluid .hl_header--dropdown a:not(.dropdown-item) .avatar .avatar_img{background:var(--golden)!important;color:var(--whitnav)!important;}
+        .fa-bell:before,.fa-question:before{
+            color:var(--black)!important;
+        }
+     .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a .nav-fa-icon, .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a .nav-title,.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a .nav-title,.sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a .nav-title{
+     color:unset!important;
+    }
+     
+    .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active.divider{
+     background:none!important;
+    }
+    nav.flex-1 a:is(.active,hover) img{
+     filter:invert(1) !important;
+    }
+     nav.flex-1 a:not(.active,hover) img{
+     filter:invert(0) !important;
+    }
+     .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active.divider{
+      background:none!important;
+     }
+     .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a .nav-title, .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a .nav-title{
+      color:unset!important;
+     }
+     .sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2 .hl_text-overflow{
+      color:var(--golden)!important;
+     }
+    
+     .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a .nav-title{
+            color:var(--golden)!important;
+        }
+    
+    .sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2 .hl_v2-location_switcher{
+     position:absolute;
+     top:65px;
+    left:200px;
+               }
+    
+ .sidebar-v2-location .hl_header div.container-fluid{
+            position:absolute;
+            top:0px;
+            right:0px;
+       }
+
+        .n-base-selection .n-base-selection-label{
+            background:var(--golden)!important;
+        }
+
+       .crm-opportunities-funnel .n-base-selection-label{
+   
+         color:white!important
+       }
+
+.n-base-selection-label{
+  background:red!important
+}
+
+    
+    #app #sidebar-v2 [class*="hl_nav"] nav a span {
+        color: var(--whitnav)!important;
+    }
+     #app #sidebar-v2 [class*="hl_nav"] nav a:hover span, #app #sidebar-v2 [class*="hl_nav"] nav a.active span {
+        color: var(--whitnav) !important;
+        
+    }
+  
+      #app #sidebar-v2 [class*="hl_nav"] nav a:hover, #app #sidebar-v2 [class*="hl_nav"] nav a.active {
+        background: var(--golden)!important;
+    
+     }
+     #app #sidebar-v2 [class*="hl_nav"] nav a.active {
+       min-width:150px!important;
+    }
+    
+    
+     header.hl_header{
+      height:unset!important;
+     }
+        .pt-12 {
+            padding:unset!important;
+           
+        }
+     #location-dashboard .location-dashboard-wrapper{
+      margin-bottom:200px!important;
+      /* display: grid; */
+      /* grid-template-columns: 1fr 1fr 1fr; */
+      /* width: 100vw; */
+    }
+ body[data-theme=default] .sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2{
+      background:var(--golden)!important;
+      color: white!important;
+     }
+     
+     
+    #app #sidebar-v2 [class*="hl_nav"] nav a:hover img, #app #sidebar-v2 [class*="hl_nav"] nav a.active img {
+      filter: invert(0.10) !important;
+    }
+    
+    #app #sidebar-v2 [class*="hl_nav"] nav a:hover i, #app #sidebar-v2 [class*="hl_nav"] nav a.active i{
+      filter:invert(0)!important;
+    }
+   
+    .fa-angle-down:before,.fa-angle-up:before,   body[data-theme=default] .sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2 .hl_switcher-loc-city {
+        color:var(--whitnav)!important;
+    }
+        .sidebar-v2-location #sidebar-v2 .sm-button:before{
+            filter:invert(1)!important;
+        }
+
+ 
+
+
+.crm-opportunities-status .echarts path:nth-child(1){
+     fill:var(--golden)!important;
+    }
+         .crm-opportunities-status .echarts path:nth-child(2){
+          fill:var(--topbar)!important;
+         }
+         .crm-opportunities-stages-distribution .echarts path:nth-child(5){
+           fill:var(--golden)!important;
+         }
+         .crm-opportunities-stages-distribution .echarts path:nth-child(6){
+                fill:var(--golden)!important;
+         }
+         .crm-opportunities-conversion-rate .echarts path:nth-child(1){
+                 fill:var(--golden)!important;
+         }
+
+     .n-base-selection .n-base-selection-label .n-base-selection-input {
+      color:var(--whitnav)!important;
+     }
+     .n-base-selection .n-base-selection-label .n-base-selection-input .n-base-selection-input__content{
+        color:var(--whitnav)!important;
+     }
+     .n-base-icon svg {
+         color:var(--whitnav)!important;
+
+     }
+     .n-base-selection .n-base-selection-label .n-base-selection-label__render-label{
+       color:var(--whitnav)!important;
+     }
+      body[data-theme=default] .sidebar-v2-location #sidebar-v2 #globalSearchOpener .search-icon{
+ color:var(--black)!important;
+}
+      body[data-theme=default] .sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2 .hl_location_icon{
+ filter:invert(0)!important;
+}
